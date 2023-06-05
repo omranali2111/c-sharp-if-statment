@@ -1,0 +1,15 @@
+C:\Users\HP\Desktop\code-TRA\c-sharp-if-statment\c-sharp-if-statment\bin\Debug\net6.0\c-sharp-if-statment.exe
+C:\Users\HP\Desktop\code-TRA\c-sharp-if-statment\c-sharp-if-statment\bin\Debug\net6.0\c-sharp-if-statment.deps.json
+C:\Users\HP\Desktop\code-TRA\c-sharp-if-statment\c-sharp-if-statment\bin\Debug\net6.0\c-sharp-if-statment.runtimeconfig.json
+C:\Users\HP\Desktop\code-TRA\c-sharp-if-statment\c-sharp-if-statment\bin\Debug\net6.0\c-sharp-if-statment.dll
+C:\Users\HP\Desktop\code-TRA\c-sharp-if-statment\c-sharp-if-statment\bin\Debug\net6.0\c-sharp-if-statment.pdb
+C:\Users\HP\Desktop\code-TRA\c-sharp-if-statment\c-sharp-if-statment\obj\Debug\net6.0\c-sharp-if-statment.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\code-TRA\c-sharp-if-statment\c-sharp-if-statment\obj\Debug\net6.0\c-sharp-if-statment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\code-TRA\c-sharp-if-statment\c-sharp-if-statment\obj\Debug\net6.0\c-sharp-if-statment.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\code-TRA\c-sharp-if-statment\c-sharp-if-statment\obj\Debug\net6.0\c-sharp-if-statment.AssemblyInfo.cs
+C:\Users\HP\Desktop\code-TRA\c-sharp-if-statment\c-sharp-if-statment\obj\Debug\net6.0\c-sharp-if-statment.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\code-TRA\c-sharp-if-statment\c-sharp-if-statment\obj\Debug\net6.0\c-sharp-if-statment.dll
+C:\Users\HP\Desktop\code-TRA\c-sharp-if-statment\c-sharp-if-statment\obj\Debug\net6.0\refint\c-sharp-if-statment.dll
+C:\Users\HP\Desktop\code-TRA\c-sharp-if-statment\c-sharp-if-statment\obj\Debug\net6.0\c-sharp-if-statment.pdb
+C:\Users\HP\Desktop\code-TRA\c-sharp-if-statment\c-sharp-if-statment\obj\Debug\net6.0\c-sharp-if-statment.genruntimeconfig.cache
+C:\Users\HP\Desktop\code-TRA\c-sharp-if-statment\c-sharp-if-statment\obj\Debug\net6.0\ref\c-sharp-if-statment.dll
