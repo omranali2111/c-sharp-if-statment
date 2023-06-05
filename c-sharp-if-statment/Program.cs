@@ -28,7 +28,23 @@ internal class Program
             WriteLine("na");
         }
 
-        
+        //Multiple condition
+        ///  ||>>OR 
+        ///  &&>>AND
+        int x = 5;
+        if(a < 1 && b > 0)
+        {
+            WriteLine("condition met");
+
+        }
+        else if (b > 0 || x < 6)
+        {
+            WriteLine("condition met");
+
+        }
+
+        else
+        { WriteLine("condition not met"); }
         
 
     }
