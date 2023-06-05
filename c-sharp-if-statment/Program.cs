@@ -102,7 +102,7 @@ internal class Program
 
         // star pattern using nested loop
 
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < 6; i++)
         {
             for (int j = 0; j < i; j++)
             {
@@ -111,20 +111,47 @@ internal class Program
 
             WriteLine();
         }
-        for (int i = 10; i > 0; i--)
+        //for (int i = 10; i > 0; i--)
+        //{
+        //    for (int j = 0; j < i; j++)
+        //    {
+        //        Write(" ");
+        //    }
+        //    for (int z = 10; z > i; z--)
+        //    {
+        //        Write("*");
+        //    }
+
+
+            //WriteLine();
+           //}
+
+        //task
+        //write a program that takes 2 input from user and
+        //print if the numbers and inbetween them even or odd
+       
+        int FNumber;
+        int SNumber;
+        
+        WriteLine("Enet a first Number:  ");
+        FNumber = int.Parse(ReadLine());
+        WriteLine("Enet a second Number:  ");
+        SNumber = int.Parse(ReadLine());
+        for(int i = FNumber; FNumber<= SNumber; FNumber++)
         {
-            for (int j = 0; j < i; j++)
+            if(FNumber % 2==0)
             {
-                Write(" ");
+                WriteLine(FNumber+" is even");
             }
-            for (int z = 10; z > i; z--)
+            else
             {
-                Write("*");
+                WriteLine(FNumber+ " is odd");
             }
+           
+        }
+       
 
 
-            WriteLine();
-           }
-        ReadLine();
+
     }
 }
