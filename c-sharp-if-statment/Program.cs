@@ -13,13 +13,13 @@ internal class Program
         //Not Equal to: a != b
 
         int a = 0, b = 1;
-            bool c;
-        if(a == 0)
+        bool c;
+        if (a == 0)
         {
             WriteLine("condition met");
         }
 
-        else if(a == 1)
+        else if (a == 1)
         {
             WriteLine("condition not met");
         }
@@ -32,7 +32,7 @@ internal class Program
         ///  ||>>OR 
         ///  &&>>AND
         int x = 5;
-        if(a < 1 && b > 0)
+        if (a < 1 && b > 0)
         {
             WriteLine("condition met");
 
@@ -55,11 +55,11 @@ internal class Program
         WriteLine("Enet an second Number:  ");
         secondNumber = int.Parse(ReadLine());
 
-        if(firstNumber == secondNumber)
+        if (firstNumber == secondNumber)
         {
             WriteLine("numbers are equals ");
         }
-        else if(firstNumber>0 && secondNumber > 0)
+        else if (firstNumber > 0 && secondNumber > 0)
         {
             WriteLine("both numbers are bigger than 0");
         }
@@ -82,27 +82,49 @@ internal class Program
         //            ... ... ...
         //      }
 
-        for(int i=0;i<5; i++)
+        for (int i = 0; i < 5; i++)
         {
-            WriteLine("this is outer loop"+i);
+            WriteLine("this is outer loop" + i);
             for (int j = 0; j < 5; j++)
             {
-                WriteLine("this is inner loop"+j);
+                WriteLine("this is inner loop" + j);
             }
         }
         WriteLine("***********************************");
         for (int i = 0; i < 5; i++)
         {
-          
+
             for (int j = 0; j < i; j++)
             {
                 WriteLine(j);
             }
         }
 
+        // star pattern using nested loop
+
+        for (int i = 0; i < 10; i++)
+        {
+            for (int j = 0; j < i; j++)
+            {
+                Write("*");
+            }
+
+            WriteLine();
+        }
+        for (int i = 10; i > 0; i--)
+        {
+            for (int j = 0; j < i; j++)
+            {
+                Write(" ");
+            }
+            for (int z = 10; z > i; z--)
+            {
+                Write("*");
+            }
 
 
-
-
+            WriteLine();
+           }
+        ReadLine();
     }
 }
