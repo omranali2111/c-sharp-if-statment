@@ -67,5 +67,33 @@ internal class Program
         {
             WriteLine("one of the numbers or booth are less than 0");
         }
+        //  Nested Loops(loop within loop)
+        //*can be any number of loops
+        //*no restriction on type of loop
+
+        //  Outer - Loop
+        //      {
+        //          body of outer-loop
+        //            Inner - Loop
+
+        //            {
+        //                body of inner-loop
+        //            }
+        //            ... ... ...
+        //      }
+
+        for(int i=0;i<5; i++)
+        {
+            WriteLine("this is outer loop");
+            for (int j = 0; j < 5; j++)
+            {
+                WriteLine("this is inner loop");
+            }
+        }
+
+               
+
+
+
     }
 }
