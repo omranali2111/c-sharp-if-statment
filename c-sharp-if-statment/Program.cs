@@ -45,7 +45,27 @@ internal class Program
 
         else
         { WriteLine("condition not met"); }
-        
 
+        // with user interaction  
+
+        int firstNumber;
+        int secondNumber;
+        WriteLine("Enet a first Number:  ");
+        firstNumber = int.Parse(ReadLine());
+        WriteLine("Enet an second Number:  ");
+        secondNumber = int.Parse(ReadLine());
+
+        if(firstNumber == secondNumber)
+        {
+            WriteLine("numbers are equals ");
+        }
+        else if(firstNumber>0 && secondNumber > 0)
+        {
+            WriteLine("both numbers are bigger than 0");
+        }
+        else
+        {
+            WriteLine("one of the numbers or booth are less than 0");
+        }
     }
 }
