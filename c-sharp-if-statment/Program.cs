@@ -84,14 +84,23 @@ internal class Program
 
         for(int i=0;i<5; i++)
         {
-            WriteLine("this is outer loop");
+            WriteLine("this is outer loop"+i);
             for (int j = 0; j < 5; j++)
             {
-                WriteLine("this is inner loop");
+                WriteLine("this is inner loop"+j);
+            }
+        }
+        WriteLine("***********************************");
+        for (int i = 0; i < 5; i++)
+        {
+          
+            for (int j = 0; j < i; j++)
+            {
+                WriteLine(j);
             }
         }
 
-               
+
 
 
 
